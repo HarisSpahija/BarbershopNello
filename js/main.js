@@ -68,7 +68,7 @@
 	var majorCarousel = $('.js-carousel-1');
 	majorCarousel.owlCarousel({
     loop:true,
-    autoplay: true,
+    autoplay: false,
     stagePadding: 0,
     margin: 10,
     animateOut: 'fadeOut',
