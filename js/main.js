@@ -68,7 +68,7 @@
 	var majorCarousel = $('.js-carousel-1');
 	majorCarousel.owlCarousel({
     loop:true,
-    autoplay: false,
+    autoplay: true,
     stagePadding: 0,
     margin: 10,
     animateOut: 'fadeOut',
@@ -89,7 +89,7 @@
       1000:{
         items:3,
         nav:true,
-        loop:false
+        loop:true
       }
   	}
 	});
